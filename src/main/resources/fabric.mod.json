@@ -3,20 +3,23 @@
 	"id": "redstone-hopper",
 	"version": "${version}",
 	"name": "Redstone Hopper",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a simple mod that adds the Redstone Hopper, a one-block item filter.",
 	"authors": [
-		"Me!"
+		"Miss Y Llywelyn"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "ISTSL 1.0 NR",
 	"icon": "assets/redstone-hopper/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"uk.fallingsloth.mc.redstone_hopper.RedstoneHopper"
+		],
+		"client": [
+			"uk.fallingsloth.mc.redstone_hopper.RedstoneHopperClient"
 		],
 		"fabric-datagen": [
 			"uk.fallingsloth.mc.redstone_hopper.RedstoneHopperDataGenerator"
